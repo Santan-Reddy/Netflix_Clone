@@ -38,6 +38,20 @@ nav button{
     position: relative;
     z-index: 10;
 }
+buttons.lang{
+    background-color: red;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+}
+button.signIn{
+    background-color: red;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+}
 .hero{
     height: 100%;
     display: flex;
@@ -47,8 +61,36 @@ nav button{
     color: white;
     position: relative;
     font-family: 'Martel Sans', sans-serif;
+    gap: 23px;
 }
-.hero :first-child{
+.hero .first{
     font-weight: 900;
     font-size: 48px;
+}
+.emailBox input{
+    background-color: black;
+    outline: none;
+    color: white;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 8px;
+    opacity: 70%;
+    font-size: 18px;
+}
+.emailBox button{
+    background-color: red;
+    border: none;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.emailBox{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
 }
