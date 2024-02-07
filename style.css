@@ -4,6 +4,11 @@
     padding: 0;margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .main{
     height: 80vh;
     background-image: url('/assets/Images/bg.jpg');
@@ -11,6 +16,7 @@
     background-repeat: no-repeat;
     background-size: (1200px,100vw);
     position: relative;
+    border-bottom: 10px solid gray;
 }
 .main .box{
     height: 80vh;
@@ -41,15 +47,16 @@ nav button{
 button.lang{
     background-color: rgba(0, 0, 0, 0.511);
     /* opacity:70%; */
-    border: none;
-    padding: 6px 12px;
+    border: 1px solid white;
+    padding: 6px 18px;
     border-radius: 5px;
     color: white;
+    margin-right: 1rem;
 }
 button.signIn{
     background-color: red;
     border: none;
-    padding: 6px 12px;
+    padding: 6px 22px;
     border-radius: 5px;
     color: white;
 }
@@ -67,6 +74,7 @@ button.signIn{
 .hero .first{
     font-weight: 900;
     font-size: 48px;
+    text-align: center;
 }
 .emailBox input{
     background-color: rgba(0, 0, 0, 0.5);
@@ -94,4 +102,45 @@ button.signIn{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+}
+.main-2,.main-3{
+    background-color: black;
+    height: 70vh;
+    color: white;
+    border-bottom: 10px solid gray;
+}
+.main-2 .info{
+    max-width: 80%;
+    margin: auto;
+    padding: 2rem 0;
+}
+.main-2 .info .text .first{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.main-2 .info .text{
+    flex-direction: column;
+}
+.main-2 .info .media {
+    width: 60vw;
+    position: relative;
+}
+.main-2 .info .media img{
+    width:90%;
+    z-index: 10;
+    position: relative;
+}
+.main-2 .info .media video{
+    width:70%;
+    position: absolute;
+    left: 40px;
+    top: 60px;
+}
+.main-4 .info .media video{
+    width:55%;
+    position: absolute;
+    left: 95px;
+    top: px;
 }
