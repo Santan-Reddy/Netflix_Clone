@@ -11,7 +11,7 @@
 }
 .main{
     height: 80vh;
-    background-image: url('/assets/Images/bg.jpg');
+    background-image: url('assets/Images/bg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: (1200px,100vw);
@@ -142,5 +142,5 @@ button.signIn{
     width:55%;
     position: absolute;
     left: 95px;
-    top: px;
+    top: 10px;
 }
